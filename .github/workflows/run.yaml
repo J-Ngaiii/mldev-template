@@ -43,5 +43,5 @@ jobs:
       - name: Debug Check -> Disply Python Path
         run: python -c "import sys; print(sys.path)"
     
-      - name: Debug Check -> Confirm mldevtemp is recognizeable # this one tends to bug so I want to have sys.path info before this runs if it fails
-        run: python -c "import mldevtemp; print('mldevtemp is recognized!')"
+      - name: Debug Check -> Confirm src is recognizeable # this one tends to bug so I want to have sys.path info before this runs if it fails
+        run: python -c "import src; print('src is recognized!')"
