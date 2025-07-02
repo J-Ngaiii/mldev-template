@@ -12,7 +12,8 @@ setup(
         'pyarrow', 
         'scipy', 
         'scikit-learn',
-        'torch'
+        'torch', 
+        'ipykernel'
         # add more as needed
     ],
     entry_points={
